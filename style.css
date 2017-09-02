@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+html
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    font-family: cursive, 'Comic Sans MS', 'メイリオ';
+    font-size: 1.4rem;
+    line-height: 1.6;
+    letter-spacing: .1em;
+    color: #696969;
+    background-color: #f5f5f5;
+}
+header
+{
+    font-size: 4.2rem;
+    padding: 0;
+    
+}
+header p
+{
+    font-size: 2.4rem;
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+.title
+{
+   text-align: center;
+   background:url(./images/img_title.jpg) no-repeat center center;
+   background-size:cover;
+   height:500px;
+   color: #ffffff;
+}
+h1
+{
+    padding-top:200px;
+    margin-bottom: 30px;
+}
+h1,header p{
+    text-shadow:5px 5px 5px #000000;
+}
+header p{
+    padding:10px 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.6);
+}
+.feature-box
+{
+    display:flex;
+    justify-content:space-around;
+}
+.feature-wrap
+{
+    width: 30%;
+    padding:0 1%;
+}
+.feature-wrap img
+{
+    width:100%;
+}
+
+h2
+{
+    margin:20px 0;
+    background:#daa520;
+    font-size: 2.4rem;
+    color: #ffffff;
+    
+}
+h3
+{
+    font-size: 1.6rem;
+    border-top:3px double #333;
+    border-bottom:3px double #333;
+    margin-bottom:10px;
+    padding:5px;
+}
+#contact
+{
+    text-align:center;
+}
+#feature,#contact{
+    margin-bottom:50px;
+}
+#contact a
+{
+    display:inline-block;
+    margin:auto;
+    padding:10px 20px;
+    background:#696969;
+    color:#ffffff;
+    text-decoration:none;
+    border-radius:5px;
+}
+#contact a:hover
+{
+    background:#a9a9a9;
+}
+
+
+@media(max-width:768px){
+    .title
+    {
+        height:250px;
+    }
+    h1{
+        padding-top:50px;
+        font-size:20px;
+    }
+    header p{
+        font-size:14px;
+    }
+    .feature-box{
+        display:block;
+    }
+    .feature-wrap{
+        width:98%;
+        margin-bottom:30px;
+    }
+
+
+}
